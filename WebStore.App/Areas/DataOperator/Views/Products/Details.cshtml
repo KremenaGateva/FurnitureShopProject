@@ -1,0 +1,31 @@
+﻿@model ProductDetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details for @Model.Name</h2>
+
+<div class="row">
+
+    <div class="col-md-8">
+        <img style="width: 500px; height: 300px" class="img-fluid" src="@Model.ImagePath" alt="@Model.Name">
+    </div>
+
+    <div class="col-md-4">
+        <h3 class="my-3">Description</h3>
+        <p>@Model.Description</p>
+        <ul>
+            <li>Price: $@Model.Price.ToString("f2")</li>
+            <li>Quantity: @Model.QuantityInStock pcs.</li>
+            <li>Discount: @Model.DiscountPercentage %</li>
+            <li>Added on: @Model.AddedDate</li>
+            <li>Category:
+            <a asp-area="DataOperator" asp-controller="Categories" asp-action="Details" asp-route-name="@Model.CategoryName">
+                @Model.CategoryName
+            </a>
+            </li>
+        </ul>
+    </div>
+
+</div>

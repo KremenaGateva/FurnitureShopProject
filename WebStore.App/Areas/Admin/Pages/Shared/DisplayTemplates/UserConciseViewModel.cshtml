@@ -1,0 +1,40 @@
+﻿@model UserConciseViewModel
+
+<tr>
+    <td>@Model.Username</td>
+    <td>@Model.Email</td>
+    <td>@Html.DisplayFor(model => model.IsDataOperator)</td>
+    <td>@Html.DisplayFor(model => model.IsAdmin)</td>
+    <td>
+        <a asp-area="Admin" asp-page="/Users/Details" asp-route-id="@Model.Id"
+           class="btn btn-info">
+            Details
+        </a>
+        @if (Model.IsDataOperator)
+        {
+            <a asp-area="Admin" asp-controller="Users" asp-action="ChangePassword" asp-route-id="@Model.Id"
+               class="btn btn-warning">
+                ChangePassword
+            </a>
+            <a asp-area="Admin" asp-controller="Users" asp-action="Ban" asp-route-id="@Model.Id"
+               class="btn btn-danger">
+                Ban
+            </a>
+        }
+        else
+        {
+            <a asp-area="Admin" asp-controller="Users" asp-action="MakeDataOperator" asp-route-id="@Model.Id"
+               class="btn btn-primary">
+                Make Data Operator
+            </a>
+            <a asp-area="Admin" asp-controller="Users" asp-action="ChangePassword" asp-route-id="@Model.Id"
+               class="btn btn-warning">
+                ChangePassword
+            </a>
+            <a asp-area="Admin" asp-controller="Users" asp-action="Ban" asp-route-id="@Model.Id"
+               class="btn btn-danger">
+                Ban
+            </a>
+        }
+    </td>
+</tr>

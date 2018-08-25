@@ -1,0 +1,20 @@
+﻿@model CategoryDetailsViewModel
+
+@{
+    ViewData["Title"] = "Category Details";
+}
+
+<h2>Details for @Model.Name</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        @Html.DisplayFor(model => model.Products)
+    </tbody>
+</table>

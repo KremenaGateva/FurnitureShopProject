@@ -1,0 +1,9 @@
+﻿@model OrderConciseViewModel
+
+<tr>
+    <td><a asp-area="Users" asp-controller="Orders" asp-action="Details" asp-route-id="@Model.Id">@Model.Id</a></td>
+    <td>@Model.OrderDate</td>
+    <td>@Model.ProductsCount</td>
+    <td>@Model.Price.ToString("f2")</td>
+    <td>@Model.Status</td>
+</tr>

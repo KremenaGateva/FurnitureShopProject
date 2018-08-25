@@ -1,0 +1,19 @@
+﻿@model OrderConciseAdminViewModel
+
+<tr>
+    <td>@Model.Id</td>
+    <td>@Model.OrderDate</td>
+    <td>@Model.ProductsCount</td>
+    <td>$@Model.Price.ToString("f2")</td>
+    <td>@Model.Status</td>
+    <td>
+        @if (Model.Status != ModelsConstants.StatusConstants.Confirmed)
+        {
+            <a asp-area="Admin" asp-controller="Orders" asp-action="ConfirmOrder" asp-route-id="@Model.Id"
+               class="btn btn-success">
+                Confirm
+            </a>
+        }
+
+    </td>
+</tr>

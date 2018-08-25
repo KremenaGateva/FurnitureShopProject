@@ -1,0 +1,38 @@
+﻿@model OrderDetailsViewModel
+
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<h2>Order №@Model.Id</h2>
+
+
+<h4>Order Date: @Model.OrderDate</h4>
+
+<h5>Status: @Model.Status</h5>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.ProductName</td>
+                <td>@product.Quantity pcs.</td>
+                <td>$@product.Price.ToString("f2")</td>
+                <td>$@product.TotalPrice.ToString("f2")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3 class="text-right"><strong>Total order sum:</strong> $@Model.Price.ToString("f2")</h3>
+
+

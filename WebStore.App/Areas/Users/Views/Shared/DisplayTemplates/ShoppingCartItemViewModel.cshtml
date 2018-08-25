@@ -1,0 +1,10 @@
+﻿@model ShoppingCartItemViewModel
+
+<tr>
+    <td><img src="@Model.ImagePath" alt="@Model.ItemName" /></td>
+    <td>@Model.ItemName</td>
+    <td>@Model.Quantity pcs.</td>
+    <td>$@Model.Price.ToString("f2")</td>
+    <td>$@Model.TotalPrice.ToString("f2")</td>
+    <td><a asp-area="Users" asp-controller="ShoppingCart" asp-action="RemoveItem" asp-route-id="@Model.Id" class="btn btn-danger">Remove Item</a></td>
+</tr>

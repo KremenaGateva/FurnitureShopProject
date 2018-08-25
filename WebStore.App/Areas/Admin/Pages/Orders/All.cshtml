@@ -1,0 +1,22 @@
+﻿@page
+@model WebStore.App.Areas.Admin.Pages.Orders.AllModel
+@{
+    ViewData["Title"] = "All Orders";
+}
+
+<h2>All Orders</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Product Number</th>
+            <th>Date</th>
+            <th>Number Products Bought</th>
+            <th>Total Price</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @Html.DisplayFor(m => m.Orders)
+    </tbody>
+</table>

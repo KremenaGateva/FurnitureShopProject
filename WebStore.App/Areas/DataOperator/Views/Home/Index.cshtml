@@ -1,0 +1,18 @@
+﻿@model IEnumerable<ProductConciseViewModel>
+
+<a asp-area="DataOperator" asp-controller="Products" asp-action="Add" class="btn btn-default" role="button">
+    <i class="fa fa-plus-circle">Add new product</i>
+    </a>
+
+<h4>Last added products:</h4>
+
+@if (!Model.Any())
+{
+    <p>There are no products yet!</p>
+}
+
+<div class="container" id="tourpackages-carousel">
+    <div class="row">
+        @Html.DisplayForModel()
+    </div>
+</div>

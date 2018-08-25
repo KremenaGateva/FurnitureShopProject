@@ -1,0 +1,7 @@
+﻿@model CategoryProductViewModel
+
+<tr>
+    <td><a asp-area="DataOperator" asp-controller="Products" asp-action="Details" asp-route-id="@Model.Id">@Model.Name</a></td>
+    <td>@Model.Price</td>
+    <td>@Model.QuantityInStock</td>
+</tr>

@@ -1,0 +1,35 @@
+﻿@page "{id:int}"
+@model WebStore.App.Pages.Products.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details for @Model.Product.Name</h2>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <img style="width: 500px; height: 300px" class="img-fluid" src="@Model.Product.ImagePath" alt="@Model.Product.Name">
+    </div>
+
+    <div class="col-md-6">
+        <h3 class="my-3">Description</h3>
+        <p>@Model.Product.Description</p>
+        <ul>
+            <li>Price: $@Model.Product.SellPrice.ToString("f2")</li>
+            <li>
+                Category:
+                <a asp-page="/Categories/Details" asp-route-id="@Model.Product.CategoryId">
+                    @Model.Product.CategoryName
+                </a>
+            </li>
+        </ul>
+        @if (this.User.Identity.IsAuthenticated)
+        {
+            <a asp-area="Users" asp-controller="ShoppingCart" asp-action="AddItem" asp-route-productId="@Model.Product.Id" class="btn btn-primary active"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+
+        }
+        <a asp-page="/Index" class="btn btn-secondary">Back to home</a>
+    </div>
+
+</div>

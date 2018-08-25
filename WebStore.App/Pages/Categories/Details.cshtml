@@ -1,0 +1,13 @@
+﻿@page "{id:int}"
+@model WebStore.App.Pages.Categories.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<a asp-page="/Index">Back to home</a>
+
+<h2>Details for @Model.Category.Name (@Model.Category.ProductsCount products)</h2>
+<div class="row">
+    @Html.DisplayFor(m => m.Category.Products)
+</div>
+

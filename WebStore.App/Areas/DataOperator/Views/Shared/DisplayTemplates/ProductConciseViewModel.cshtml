@@ -1,0 +1,30 @@
+﻿@model ProductConciseViewModel
+
+<div class="col-xs-18 col-sm-6 col-md-3">
+    <div class="thumbnail">
+        <img style="width: 250px; height: 200px" src="@Model.ImagePath" alt="@Model.Name">
+    </div>
+    <div class="caption">
+        <h4>@Model.Name</h4>
+        <p>
+            <div>
+                Price: $@Model.Price.ToString("f2")
+            </div>
+            <div>
+                Quantity: @Model.QuantityInStock pcs.
+            </div>
+        </p>
+        <p>
+            <a asp-area="DataOperator" asp-controller="Products" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-primary" role="button">
+                Details
+            </a>
+
+            <a asp-area="DataOperator" asp-controller="Products" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning" role="button">
+                Edit
+            </a>
+            <a asp-area="DataOperator" asp-controller="Products" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger" role="button">
+                Delete
+            </a>
+        </p>
+    </div>
+</div>

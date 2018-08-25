@@ -1,0 +1,19 @@
+﻿@model ProductBindingModel
+
+@{
+    ViewData["Title"] = "Delete product";
+}
+
+<h2>Delete Product</h2>
+
+<form asp-area="DataOperator" asp-controller="Products" asp-action="Delete" method="post" class="form-horizontal">
+    <fieldset disabled>
+        @Html.EditorForModel()
+    </fieldset>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-push-2">
+            <input type="submit" value="Delete Product" class="btn btn-danger" />
+            <input type="reset" class="btn btn-default" value="Cancel">
+        </div>
+    </div>
+</form>

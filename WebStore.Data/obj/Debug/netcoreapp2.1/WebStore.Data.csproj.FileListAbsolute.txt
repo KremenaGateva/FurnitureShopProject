@@ -1,0 +1,16 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\bin\Debug\netcoreapp2.1\WebStore.Data.deps.json
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\bin\Debug\netcoreapp2.1\WebStore.Data.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\obj\Debug\netcoreapp2.1\WebStore.Data.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\obj\Debug\netcoreapp2.1\WebStore.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\obj\Debug\netcoreapp2.1\WebStore.Data.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\obj\Debug\netcoreapp2.1\WebStore.Data.AssemblyInfo.cs
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\bin\Debug\netcoreapp2.1\WebStore.Data.runtimeconfig.json
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\bin\Debug\netcoreapp2.1\WebStore.Data.runtimeconfig.dev.json
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\bin\Debug\netcoreapp2.1\WebStore.Data.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\bin\Debug\netcoreapp2.1\WebStore.Models.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\bin\Debug\netcoreapp2.1\WebStore.Models.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\obj\Debug\netcoreapp2.1\WebStore.Data.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\obj\Debug\netcoreapp2.1\WebStore.Data.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\obj\Debug\netcoreapp2.1\WebStore.Data.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\bin\Debug\netcoreapp2.1\WebStore.Utilities.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Data\bin\Debug\netcoreapp2.1\WebStore.Utilities.pdb

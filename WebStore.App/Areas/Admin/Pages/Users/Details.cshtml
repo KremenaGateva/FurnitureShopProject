@@ -1,0 +1,23 @@
+﻿@page
+@model DetailsModel
+
+@{
+    ViewData["Title"] = "Ditails for " + Model.UserModel.Username;
+}
+
+<h2>Details for @Model.UserModel.Username</h2>
+<p><strong>Username:</strong> @Model.UserModel.Username</p>
+<p><strong>Email:</strong> <a href="mailto://@Model.UserModel.Email">@Model.UserModel.Email</a></p>
+<p><strong>Full Name:</strong> @Model.UserModel.FullName</p>
+
+<p>
+    <strong>Role:</strong>
+    @if (Model.UserModel.Roles.Any())
+    {
+        <span>@Model.UserModel.Roles.First()</span>
+    }
+    else
+    {
+        <span>@RolesConstants.RoleNames.User</span>
+    }
+</p>

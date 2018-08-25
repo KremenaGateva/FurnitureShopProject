@@ -1,0 +1,9 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Utilities\bin\Debug\netcoreapp2.1\WebStore.Utilities.deps.json
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Utilities\bin\Debug\netcoreapp2.1\WebStore.Utilities.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Utilities\bin\Debug\netcoreapp2.1\WebStore.Utilities.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Utilities\obj\Debug\netcoreapp2.1\WebStore.Utilities.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Utilities\obj\Debug\netcoreapp2.1\WebStore.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Utilities\obj\Debug\netcoreapp2.1\WebStore.Utilities.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Utilities\obj\Debug\netcoreapp2.1\WebStore.Utilities.AssemblyInfo.cs
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Utilities\obj\Debug\netcoreapp2.1\WebStore.Utilities.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\WebStoreProject\WebStore.Utilities\obj\Debug\netcoreapp2.1\WebStore.Utilities.pdb
